@@ -1,0 +1,19 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "### Goal Clone this repo and build a simple dictionary key/value store script using only core NodeAPI and ECMAScript 5 or 6.   Store the key/value dictionary using filesystem. The client should be a standalone terminal tool. Once you have finished the challenge email the completed zip or link to a git repo of your choice.",
+  "main": "store.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/boriscosic/code-challenge-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/boriscosic/code-challenge-1/issues"
+  },
+  "homepage": "https://gitlab.com/boriscosic/code-challenge-1#README"
+}
