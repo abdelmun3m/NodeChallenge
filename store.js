@@ -4,14 +4,12 @@ var path = require('path');
 
 
 var file_path = path.join(__dirname,"data.db");
-
-
 //console.log(process.argv);
 
 if(fs.existsSync(file_path)){
   let dictionary = JSON.parse(fs.readFileSync(file_path));
   switch (process.argv[2]) {
-    case "list": console.log(dictionary);
+    case "list" : console.log(dictionary);
       break;
     case "add" :  dictionary[process.argv[3]] = process.argv[4] || "";
       break;
